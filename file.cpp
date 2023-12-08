@@ -10,7 +10,7 @@ int main() {
 int n, a, x;
 cin>>a>>n;
 
-if(a%2 == 0){
+if(n%2 == 0){
     //even
         x = n/2;
         if (x % 2 == 0){
