@@ -35,11 +35,16 @@ using namespace std;
 
 int main(){
     int a=0, b=1, c=0, num=1;
-    while(num < 1000){
+    while(a+b < 1000){
     c = a + b;
     b = a;
     a = c;
     num += c;
+    cout<<c<<endl;
     }
-    cout<<num-c;
+    cout<<num;
 }
+//a   b.   c 
+//610 377  987
+//987 610. 1597
+
